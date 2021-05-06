@@ -1,3 +1,7 @@
+html {
+    cursor: url('pictures/Iridium_Ore.png'), auto;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -38,21 +42,19 @@ body {
 
 .ball-center {
     left: 47%;
-    transition: 1s;
+    transition: .5s;
 }
 
 .ball-coder {
     left: 40%;
-    transition: 1s;
+    transition: .5s;
 }
 
 .ball-comedian {
     left: 59.25%;
-    transition: 1s;
+    transition: .5s;
 
 }
-/*
 
-
-
-*/
+.module {
+}
