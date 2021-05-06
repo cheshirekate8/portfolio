@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+}
+
+
+.clickableTitle {
+    font-family: fantasy;
+    font-size: 50px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    color: #64dfdf;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6930c3;
+    margin: 5%;
+}
+
+@keyframes bounce {
+    from { transform: translate3d(0, 0, 0);}
+    to { transform: translate3d(0, 50px, 0);}
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #80ffdb;
+    border: 2px solid #6930c3;
+    position: absolute;
+    top: 12%;
+    animation: bounce .5s cubic-bezier(.5,0.05,1,.5);
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+.ball-center {
+    left: 47%;
+    transition: 1s;
+}
+
+.ball-coder {
+    left: 40%;
+    transition: 1s;
+}
+
+.ball-comedian {
+    left: 59.25%;
+    transition: 1s;
+
+}
+/*
+
+
+
+*/
