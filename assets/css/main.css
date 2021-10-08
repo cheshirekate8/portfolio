@@ -196,7 +196,7 @@ body {
     -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
   background-image: url("images/overlay.png"),
   linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-  background-image: url("images/background2.jpg")
+  /* background-image: url("images/background2.jpg") */
 }
 
 body.is-preload *,
@@ -434,7 +434,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #636363;
 }
 
 blockquote {
