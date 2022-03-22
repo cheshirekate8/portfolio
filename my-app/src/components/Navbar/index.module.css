@@ -1,0 +1,15 @@
+.link {
+  @apply m-4;
+}
+
+.activeLink {
+  @apply font-medium underline decoration-2 underline-offset-1 decoration-pink-500;
+}
+
+.nav {
+  @apply flex justify-center bg-gradient-to-b from-white via-white to-transparent h-24 text-xs sm:text-base;
+}
+
+.header {
+  @apply sticky top-0 z-50;
+}

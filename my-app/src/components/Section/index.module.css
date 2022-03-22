@@ -1,0 +1,7 @@
+.section {
+  @apply w-auto;
+}
+
+.childSection {
+  @apply bg-blue-300 h-[800px] pt-24 border border-black;
+}
